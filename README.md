@@ -43,8 +43,8 @@ cd test_modbus
 # 4. run examples
 ## 3.1 Windows
 ```bat
-project/output/Windows/AMD64/Debug/server.exe
-project/output/Windows/AMD64/Debug/client.exe
+project\output\Windows\AMD64\Debug\server.exe
+project\output\Windows\AMD64\Debug\client.exe
 ```
 
 ## 3.2. Linux/macOS

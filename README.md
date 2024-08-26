@@ -2,12 +2,12 @@
 
 ## 1.1. Windows
 ```bat
-init_deps.bat
+1_bootstrap.bat
 ```
 
 ## 1.2. Linux/macOS
 ```bash
-./init_deps.sh
+./1_bootstrap.sh
 ```
 
 
@@ -18,12 +18,12 @@ cd test_modbus
 
 ## 2.1. Windows
 ```bat
-1_configure.bat
+2_configure.bat
 ```
 
 ## 2.2. Linux/macOS
 ```bash
-./1_configure.sh
+./2_configure.sh
 ```
 
 
@@ -31,12 +31,12 @@ cd test_modbus
 
 ## 3.1 Windows
 ```bat
-2_build.bat
+3_build.bat
 ```
 
 ## 3.2. Linux/macOS
 ```bash
-./2_build.sh
+./3_build.sh
 ```
 
 

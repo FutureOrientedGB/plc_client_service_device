@@ -4,7 +4,7 @@
 # -B <path-to-build>           = Explicitly specify a build directory
 cmake                                                                 \
     -S .                                                              \
-    -B project/build                                                  \
+    -B project/build/linux                                            \
     -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake   \
     -DVCPKG_TARGET_TRIPLET=x64-linux                                  \
     -DVCPKG_HOST_TRIPLET=x64-linux

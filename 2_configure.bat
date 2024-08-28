@@ -4,7 +4,7 @@
 @REM -B <path-to-build>           = Explicitly specify a build directory
 cmake                                                                    ^
     -S .                                                                 ^
-    -B project/build                                                     ^
+    -B project/build/windows                                             ^
     -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake      ^
     -DVCPKG_TARGET_TRIPLET=x64-windows-static                            ^
     -DVCPKG_HOST_TRIPLET=x64-windows-static

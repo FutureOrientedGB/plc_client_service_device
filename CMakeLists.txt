@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 
 
 # project
-project(test_modbus)
+project(test_ecnp2_ulp_plc)
 
 
 # set envs
@@ -32,4 +32,6 @@ endif(MSVC)
 # projects
 add_subdirectory(client)
 add_subdirectory(server)
+add_subdirectory(call)
+add_subdirectory(plc)
 

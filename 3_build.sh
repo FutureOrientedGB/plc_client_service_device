@@ -1,8 +1,4 @@
 #!/bin/bash
 
-cd ./project/build
-
-make -j$(nproc)
-
-cd -
+cmake --build project/build/linux
 

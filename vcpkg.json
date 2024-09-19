@@ -1,17 +1,9 @@
 {
   "dependencies": [
-    {
-      "name": "cli11"
-    },
-    {
-      "name": "fmt"
-    },
-    {
-      "name": "spdlog"
-    },
-    {
-      "name": "libmodbus"
-    }
+    "cli11",
+    "fmt",
+    "spdlog",
+    "libmodbus"
   ],
   "overrides": [
     {

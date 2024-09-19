@@ -43,13 +43,6 @@ set_target_properties(
 )
 endif(MSVC)
 
-# output dir
-set_target_properties(
-    ${PROJECT_NAME}
-    PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY $ENV{OUTPUT_EXE_DIR}
-)
-
 # link deps
 target_link_libraries(
         ${PROJECT_NAME}
